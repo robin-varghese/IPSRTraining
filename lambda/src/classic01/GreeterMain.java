@@ -15,7 +15,7 @@ public class GreeterMain {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		int check=100;
 		GreeterMain ourGreeter = new GreeterMain();
 		GreetOnam thisGreeting = new GreetOnam();
 		ourGreeter.greet(thisGreeting);
@@ -28,6 +28,10 @@ public class GreeterMain {
 		};
 		
 		Greeting myLambdaExp2 = () -> System.out.println ("Lambda greeting - reused the interface");
+		
+		
+		System.out.println("Value is : "+check);
+		
 	}
 
 }
